@@ -1,2 +1,2 @@
-# Dual Boot
+# Linux Dual Boot
 

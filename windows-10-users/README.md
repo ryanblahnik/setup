@@ -13,15 +13,21 @@ Follow the setup instructions [here](https://www.howtogeek.com/249966/how-to-ins
 Setting up a Linux Virtual Machine as a backup option is a fairly painless process if your computer has enough hard drive space, CPU, and RAM to handle it. The best way to find out is to give it a whirl, and see your system handles the Virtual Machine.
 
 1. Download and install [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
-2. Download and unzip the following pre-configured virtual disk image. If the unzip process fails, use [7zip](https://www.7-zip.org/) instead: [https://drive.google.com/open?id=1CopZmlURzq5ecKIMariQlW-3wsQOBlIv](https://drive.google.com/open?id=1CopZmlURzq5ecKIMariQlW-3wsQOBlIv%20)
+2. Download and unzip the following pre-configured virtual disk image. If the unzip process fails, use [7zip](https://www.7-zip.org/) instead: [https://drive.google.com/open?id=1ZpE-tGDDQF8LLZUL4he6gy0J54HcTn5Z](https://drive.google.com/open?id=1ZpE-tGDDQF8LLZUL4he6gy0J54HcTn5Z)
 3. Open the unzipped `.vbox` file with VirtualBox.
+4. You may find it useful to change the Display Settings inside your Virtual Machine to match your screen resolution.
+5. Make sure you configure Git with your [name](https://help.github.com/articles/setting-your-username-in-git/) and the [email address you use for GitHub](https://help.github.com/articles/setting-your-commit-email-address-in-git/)!
 
 The image comes installed with:
 
-* Node v6
-* MySQL
+* Ubuntu 18.04
 * Sublime Text 3
+* Visual Studio Code
+* Google Chrome
+* Slack
 * Git
+* Node 10
+* MariaDB (direct replacement for MySQL)
 
 ## Alternative: Linux Dual Boot
 

@@ -38,11 +38,13 @@ Below is a preview of some software that you may be installing and using after t
 
 | Application | Notes | Environment |
 | :--- | :--- | :--- |
-| MySQL | v5.7 \(not v8\) | Linux Bash only |
+| MySQL \(note 1\) | v5.7 \(not v8\) | Linux Bash only |
 | MongoDB |  | Linux Bash only |
 | [React](https://reactjs.org/) |  | via `npm` or `npx` only |
 | [Webpack](https://webpack.js.org/) |  | via `npm` or `npx` only |
 | [nodemon](https://github.com/remy/nodemon) |  | via `npm` or `npx` only |
+
+\(note 1\) Some people may run into issues installing and running MySQL. In these cases, [installing the equivalent version of MariaDB instead](https://mariadb.com/kb/en/library/mariadb-vs-mysql-compatibility/#drop-in-replacement-for-mysql) is a great alternative.
 
 ## Never modify Linux files from Windows 10
 

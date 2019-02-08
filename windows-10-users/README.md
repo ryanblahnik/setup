@@ -27,13 +27,11 @@ The image comes installed with:
 * Slack
 * Git
 * Node 10
-* MariaDB (direct replacement for MySQL)
+* MariaDB \(direct replacement for MySQL\)
 
 ## Alternative: Linux Dual Boot
 
 Setup a Ubuntu dual-boot system. This is time intensive to configure, and should only be used as an option if you are unable to use the first two options. This means you have the option of booting your computer into Windows or Ubuntu \(but not both at the same time\) every time you turn it on.
 
 [This document](https://docs.google.com/document/d/1jTk-tu1IeuztgLze8PFx5vRPVV-rwH8YqCC8hFT0VAM/) outlines the steps to set this up as well as notes from other instructors and students. Please feel free to add your own notes if you feel like they may help others in their own setup processes.
-
-
 

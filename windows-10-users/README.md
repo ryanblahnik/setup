@@ -4,9 +4,9 @@ Our curriculum, like the rest of the web development industry, is heavily depend
 
 ## Recommended: Windows Subsystem for Linux
 
-First, make sure you have the latest updates of Windows 10 installed. Our goal is to enable [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/faq) \(WSL\), also known as Ubuntu Bash for Windows 10. While the initial releases had some rough edges, the latest builds should work well enough for our curriculum.
+First, make sure you have the latest updates of Windows 10 installed. Our goal is to enable [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/faq) \(WSL\), which gives us access to Linux Bash for Windows 10. While the initial releases had some rough edges, the latest builds should work well enough for our curriculum.
 
-Follow the setup instructions [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/). This option is our preferred option as you still get to use all of the applications you’re used to \(Sublime Text 3, Chrome, Zoom, etc\). However, _**all**_ of your terminal commands \(`git` commands, `node` commands, etc\) must be installed and run in Ubuntu Bash only and not via Windows 10’s PowerShell, Window 10’s Command Prompt, or via an `.exe` file in Windows 10. **If you choose this option, make sure you also setup the next option as a backup.**
+Follow the setup instructions [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/). This option is our preferred option as you still get to use all of the applications you’re used to \(Sublime Text 3, Chrome, Zoom, etc\). However, _**all**_ of your terminal commands \(`git` commands, `node` commands, etc\) must be installed and run in Linux Bash only and not via Windows 10’s PowerShell, Window 10’s Command Prompt, or via an `.exe` file in Windows 10. **If you choose this option, make sure you also setup the next option as a backup.**
 
 Be sure to read more about how you should use Windows Subsystem for Linux [here](windows-subsystem-for-linux.md).
 

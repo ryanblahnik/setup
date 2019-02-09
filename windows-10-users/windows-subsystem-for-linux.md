@@ -1,10 +1,10 @@
 # Windows Subsystem for Linux
 
-Windows Subsystem for Linux \(WSL\) makes significantly easier for people who want to use and develop open source projects on Windows, but requires that you keep a few things in mind.
+Windows Subsystem for Linux \(WSL\) makes life significantly easier for people who want to use and develop open source projects on Windows, but requires that you keep a few things in mind.
 
 1. Understand the difference between installing/running applications on Linux Bash vs Windows 10.
 2. Never modify any Linux files from a Windows 10 application.
-3. To avoid huge wastes of time, don't modify the default shell that `Linux Bash` comes with to `zsh`, `fsh`, `ksh`, etc. \(If you don't know what this means, don't worry about it!\)
+3. To avoid huge wastes of time, don't modify the default shell that Linux Bash comes with to `zsh`, `fsh`, `ksh`, etc. \(If you don't know what this means, don't worry about it!\)
 
 ## Applications on Linux Bash vs Windows 10
 
@@ -30,7 +30,7 @@ Here's a table that shows which software should be installed in which environmen
 
 \(Note 2\) Git should already be installed on Linux Bash. If you don't get an output for `git --version`, then run `sudo apt install git`.
 
-\(Note 3\) One of the most reliable ways of install Node.js is via `nvm`, **not** via`apt install`. First, install `nvm` by running either of the [install scripts](https://github.com/creationix/nvm#install-script) via Linux Bash. Then, run `nvm install --lts` to install the latest "Long Term Stable" \(LTS\) version of Node.js, **not** the "Current" version of Node.js. You should now be able to run `which node`, which will indicate that your `node` command is installed in the `~/.nvm` directory.
+\(Note 3\) One of the most reliable ways to install Node.js is via `nvm`, **not** via`apt install`. First, install `nvm` by running either of the [install scripts](https://github.com/creationix/nvm#install-script) via Linux Bash. Then, run `nvm install --lts` to install the latest "Long Term Stable" \(LTS\) version of Node.js, **not** the "Current" version of Node.js. You should now be able to run `which node`, which will indicate that your `node` command is installed in the `~/.nvm` directory.
 
 ### Install after Day 1
 
@@ -60,5 +60,10 @@ So, when you need to tweak files like `.bash_profile` or `.bashrc` in your home 
 
 ### But where should you store your coding projects?
 
-When you `git clone` your coding projects, you should put them in a place where your Windows 10 applications can see them as well. You can do this via Linux Bash by first running `cd /mnt/c` to change directory to your **C:/** drive. Continue to `cd` into wherever you normally store your coding projects, then `git clone` your project as you normally would.
+When you `git clone` your coding projects, you should put them in a place where your Windows 10 applications can see them as well. You can do this via Linux Bash by first running `cd /mnt/c` to **c**hange **d**irectory to your `C:/` drive. Continue to `cd` into wherever you normally store your coding projects, then `git clone` your project as you normally would.
+
+```bash
+cd /mnt/c/code/hr/
+git clone 
+```
 

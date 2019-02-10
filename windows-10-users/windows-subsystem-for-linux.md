@@ -56,7 +56,7 @@ This means that any files you want to open and modify with Windows 10 applicatio
 
 Given the above, how _**will**_ you modify important files stored in WSL's Linux-only directories then? The fastest way is to use a terminal-based text editor. While `vim` is often the default text editor \(that usually opens when you're trying to run `git log` or `git commit`\), it's not very beginner friendly. I recommend using `nano` instead.
 
-So, when you need to tweak files like `.bash_profile` or `.bashrc` in your home directory, run `nano ~/.bash_profile` and peak at the hints on the bottom of your terminal to figure out how to exit and save \(or discard\) your edits.
+So, when you need to tweak files like `.bash_profile` or `.bashrc` in your home directory, run `nano ~/.bash_profile` and peek at the hints on the bottom of your terminal to figure out how to exit and save \(or discard\) your edits.
 
 ### But where should you store your coding projects?
 
